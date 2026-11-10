@@ -49,6 +49,10 @@ Both screen → M1 and M1-only rank using M1 forecasts. This comparison evaluate
 
 This connects my interest in baseball to business analytics: I want to understand when additional information changes a decision enough to justify a more complex process.
 
+## My next validation step
+
+After the complete 2027 season, I plan to evaluate my preserved forecasts using the recorded protocol without refitting. I will report forecast error and selection outcomes separately and retain the limits of my exploratory historical comparisons.
+
 ## Inspect the evidence
 
 | File | What I use it for |
@@ -104,6 +108,6 @@ Eight unresolved individual ±1 PA differences remain between cached 2026 source
 
 I use official [Baseball Savant leaderboards](https://baseballsavant.mlb.com/leaderboard/custom) and [MLB Stats API](https://statsapi.mlb.com/api/). Source URLs, retrieval timestamps and SHA-256 metadata accompany the cached files in `data/raw/`. Third-party data and fonts retain their respective rights; I do not relicense MLB data. This independent project does not imply affiliation with MLB or a team.
 
-### Development note
+## AI-assisted development
 
-I used AI tools to support project development, including code and documentation.
+I used AI tools to support project development, including code and documentation. I take responsibility for the analytical choices and interpretations presented here, and I document the data, comparisons, assumptions and limitations behind my conclusions. I distinguish AI assistance during development from the models I actually implement; I describe those models in the methods rather than imply that I built an LLM-based system.
