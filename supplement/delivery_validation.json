@@ -1,0 +1,29 @@
+{
+  "export_date": "2026-10-04",
+  "summary_pdf_pages": {
+    "EN": 1,
+    "KO": 1
+  },
+  "guide_pdf_pages": 2,
+  "english_html_pages": 27,
+  "english_html_page_images_match_corrected_pdf": true,
+  "source_forecast_lock_preserved": true,
+  "standalone_files": [
+    "Signals_for_Next_Season_2027_Report_EN_Corrected.html",
+    "Signals_for_Next_Season_2027_Report_KO.html",
+    "Signals_for_Next_Season_2027_Summary_EN.pdf",
+    "Signals_for_Next_Season_2027_Summary_EN.html",
+    "Signals_for_Next_Season_2027_Summary_EN.md",
+    "Signals_for_Next_Season_2027_Summary_KO.pdf",
+    "Signals_for_Next_Season_2027_Summary_KO.html",
+    "Signals_for_Next_Season_2027_Summary_KO.md",
+    "Signals_for_Next_Season_2027_Guide_KO.pdf",
+    "Signals_for_Next_Season_2027_Guide_KO.html",
+    "Signals_for_Next_Season_2027_Guide_KO.md",
+    "Signals_for_Next_Season_2027.ipynb",
+    "2027_scouting_queue.csv",
+    "2027_watchlist.csv",
+    "2027_all_forecasts.csv",
+    "Signals_for_Next_Season_2027_README.md"
+  ]
+}

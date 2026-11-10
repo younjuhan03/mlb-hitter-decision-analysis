@@ -1,0 +1,18 @@
+{
+  "executed_code_cells": 8,
+  "all_cells_visible_progress": true,
+  "rich_png_and_html_outputs": true,
+  "gold_metrics_and_forecasts_match": true,
+  "notebook_path": "notebooks/Signals_for_Next_Season_2027.ipynb",
+  "raw_hashes_verified": 41,
+  "sensitivity_rows": 432,
+  "cluster_resamples": 1000,
+  "repeated_players_disclosed": true,
+  "revised_hypotheses": 5,
+  "already_visible_group": 8,
+  "future_evaluator_matches_real_2026_test": true,
+  "future_outcomes": "pending",
+  "locked_forecast_n": 298,
+  "ai_notice_removed": true,
+  "2026_independent_validation_claim": false
+}

@@ -1,0 +1,15 @@
+policy,method,total_slots,growth_successes,usable_successes,available_n,years
+original_13,signal_then_M1,53,7.0,12.0,47.0,5
+original_13,signal_then_delta_xwoba,53,10.0,9.0,44.0,5
+original_13,M1_only,53,13.0,19.0,47.0,5
+original_13,current_woba,53,7.0,12.0,43.0,5
+original_13,current_xwoba,53,12.0,17.0,51.0,5
+original_13,delta_xwoba,53,13.0,10.0,42.0,5
+original_13,random_expected,53,11.196102901970544,7.225195187267879,36.032618464081175,5
+revised_hidden_5,signal_then_M1,22,2.0,6.0,19.0,5
+revised_hidden_5,signal_then_delta_xwoba,22,4.0,5.0,20.0,5
+revised_hidden_5,M1_only,22,7.0,9.0,21.0,5
+revised_hidden_5,current_woba,22,4.0,6.0,19.0,5
+revised_hidden_5,current_xwoba,22,4.0,8.0,22.0,5
+revised_hidden_5,delta_xwoba,22,6.0,5.0,19.0,5
+revised_hidden_5,random_expected,22,5.182800959535383,3.1809910619130553,14.684287731884623,5

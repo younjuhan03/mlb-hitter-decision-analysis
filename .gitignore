@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+evaluation_2027/
+prospective_results_2027/

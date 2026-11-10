@@ -1,0 +1,5 @@
+policy,method,slots,unique_hitters,below_200pa,sufficient_no_growth,growth_successes,available,growth_among_available
+original_13,signal_then_M1,53,51,6,40,7,47,0.14893617021276595
+original_13,M1_only,53,46,6,34,13,47,0.2765957446808511
+revised_hidden_5,signal_then_M1,22,22,3,17,2,19,0.10526315789473684
+revised_hidden_5,M1_only,22,22,1,14,7,21,0.3333333333333333

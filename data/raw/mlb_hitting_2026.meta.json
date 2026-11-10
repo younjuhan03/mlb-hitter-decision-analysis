@@ -1,0 +1,5 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2026&sportIds=1&playerPool=ALL&limit=2000&gameType=R",
+  "retrieved_at_utc": "2026-10-02T21:14:40.680146+00:00",
+  "sha256": "1c7b86415b27d2fa6724d69ab88c947d5b839583e429f33a475d8a2fa375aabf"
+}

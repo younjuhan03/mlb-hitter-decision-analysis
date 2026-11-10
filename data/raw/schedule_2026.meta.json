@@ -1,0 +1,5 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2026&gameType=R",
+  "retrieved_at_utc": "2026-10-02T21:14:24.391736+00:00",
+  "sha256": "9c94b214f55c16c14b4683ffd14845cdbd65e8d0b0c628de4c45c2295f3091b3"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://baseballsavant.mlb.com/leaderboard/custom?type=batter&year=2016&min=1&selections=pa%2Cab%2Chit%2Chome_run%2Cbatting_avg%2Cslg_percent%2Con_base_percent%2Cwoba%2Cxwoba%2Ck_percent%2Cbb_percent%2Cexit_velocity_avg%2Claunch_angle_avg%2Cbarrel_batted_rate%2Chard_hit_percent%2Coz_swing_percent%2Cwhiff_percent&csv=true",
+  "retrieved_at_utc": "2026-10-02T21:12:32.829868+00:00",
+  "sha256": "18b0687ae97bdaf53d724c9616e98a0d843bc5edd24b53c3b731135dfbc3940a"
+}

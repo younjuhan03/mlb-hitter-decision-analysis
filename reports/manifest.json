@@ -1,0 +1,89 @@
+{
+  "project": "Signals for Next Season",
+  "forecast_year": 2027,
+  "input_season": 2026,
+  "as_of_utc": "2026-10-02T21:30:13.250258+00:00",
+  "audit": {
+    "regular_season_end": "2026-09-27",
+    "completed_regular_games": 2459,
+    "pa_2026": 183849,
+    "mlb_total_pa_reconciliation": true,
+    "mlb_individual_pa_discrepancies": 8,
+    "max_individual_pa_difference": 1,
+    "individual_discrepancy_reason": "Not established; preserve Savant measurements consistently and disclose feed differences.",
+    "source_files": 41
+  },
+  "policy": {
+    "selected_model": "M1_results",
+    "support_changes": false,
+    "changes_checks": {
+      "development_rmse_improves": true,
+      "development_mae_improves": true,
+      "positive_development_years": 2,
+      "final_2026_rmse_improves": false
+    },
+    "levels_supported": false,
+    "selection_disclosure": "Exploratory development policy includes final-2026 performance. That comparison is not a second untouched holdout for the resulting selection."
+  },
+  "gains": [
+    {
+      "comparison": "M1_results → M2_levels",
+      "mean_squared_error_gain": 1.0380236972692119e-05,
+      "exploratory_cluster_95pct_intervals": {
+        "target_season": [
+          -1.7168718084179786e-06,
+          2.9888416447748264e-05
+        ],
+        "player_id": [
+          -2.2774099547992946e-05,
+          4.364192911150695e-05
+        ]
+      },
+      "by_target_year": {
+        "2022": 2.5405958529233244e-06,
+        "2023": 3.959952489446872e-05,
+        "2024": 2.591225057597056e-06,
+        "2025": -3.216011951052504e-06
+      }
+    },
+    {
+      "comparison": "M2_levels → M3_changes",
+      "mean_squared_error_gain": 1.1021487201846488e-05,
+      "exploratory_cluster_95pct_intervals": {
+        "target_season": [
+          -5.5785364472901365e-06,
+          2.643322282403841e-05
+        ],
+        "player_id": [
+          -4.958541867110227e-06,
+          2.6335148171381216e-05
+        ]
+      },
+      "by_target_year": {
+        "2022": -5.936700266204471e-06,
+        "2023": 3.320296627347151e-05,
+        "2024": 2.0090143877720836e-05,
+        "2025": -5.261395797062024e-06
+      }
+    }
+  ],
+  "bands": {
+    "residual_quantiles": [
+      -0.041514739201940765,
+      0.035649874295885564
+    ],
+    "historical_empirical_coverage": 0.7996422182468694,
+    "interpretation": "Exploratory historical error range; future calibrated coverage and breakout probability are not established."
+  },
+  "primary_future_outcomes": "2027 pending; no fabricated labels",
+  "code_sha256": "94218a9716a99b49d559fc0940a57277148b64f8c1523a48f94a475b9ccb6277",
+  "protocol_sha256": "b6514756422acc1d50a2c240dfd495df5e2be460800a10a8160476d3a8726ca5",
+  "training_pairs": 1806,
+  "development_labeled_n": 889,
+  "final_2026_labeled_n": 229,
+  "2026_main_forecast_n": 298,
+  "2026_low_history_200pa_n": 63,
+  "research_screen": "Exploratory signal screen plus observed wOBA rise <.020; 5 hypotheses, 8 already-apparent monitoring cases",
+  "revised_at_utc": "2026-10-02T23:49:10.564896+00:00",
+  "revised_policy": "M1 reference; screen is a failed-growth-yield experimental hypothesis list"
+}
