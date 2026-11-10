@@ -6,6 +6,16 @@ I compare traditional batting information with Statcast skill levels and annual 
 
 [Technical report (PDF)](reports/Signals_for_Next_Season_2027_Report_EN_Corrected.pdf) · [Executed notebook](notebooks/Signals_for_Next_Season_2027.ipynb) · [My interpretation](docs/PROJECT_GUIDE.md) · [Results](reports/model_metrics.csv)
 
+## My project in plain English
+
+I asked two related questions: **can I predict a hitter's next season more accurately, and can I use those predictions to choose better players for limited scouting review?**
+
+- **What I built:** I compared models using traditional batting statistics, Statcast skill measurements and year-to-year skill changes. I then evaluated a separate screening rule for allocating player-review slots.
+- **How I evaluated it:** I trained on earlier seasons, evaluated later seasons and compared selection policies with the same eligible players and number of review slots within each policy.
+- **What I learned:** I found that adding current skill measurements improved 2026 prediction error, while my signal screen selected fewer growth successes than ranking with M1 alone. I therefore separate my forecasting result from my scouting-policy result.
+
+I predict **wOBA**, a batting measure that weights offensive outcomes; higher values indicate stronger production. I use **RMSE** to summarize prediction error, where lower is better, and **PA** for plate appearances. I have preserved my 2027 forecasts for future evaluation; I do not yet have 2027 outcomes.
+
 ## What I found
 
 | Model | Inputs | 2022–2025 RMSE · 889 observations | 2026 RMSE · 229 observations |
