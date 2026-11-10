@@ -47,7 +47,9 @@ Both screen → M1 and M1-only rank using M1 forecasts. This comparison evaluate
 - I examine forecast errors, repeated-player uncertainty, outcome-definition sensitivity and equal-budget policy outcomes.
 - I preserve 298 forecasts and evaluation definitions for the future 2027 season. Outcomes are **pending**.
 
-This connects my interest in baseball to business analytics: I want to understand when additional information changes a decision enough to justify a more complex process.
+## What I learned and want to deepen
+
+I learned to distinguish predicting player performance from choosing which players deserve limited review time. My historical results helped me see that I had not yet established a reliable link between lower forecast error and better selection outcomes. I want to study decision-focused evaluation and uncertainty estimation more deeply, so I can define the selection objective in advance and test whether additional information improves the decision.
 
 ## My next validation step
 
