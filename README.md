@@ -49,7 +49,7 @@ Both screen → M1 and M1-only rank using M1 forecasts. This comparison evaluate
 
 ## What I learned and want to deepen
 
-I learned to distinguish predicting player performance from choosing which players deserve limited review time. My historical results helped me see that I had not yet established a reliable link between lower forecast error and better selection outcomes. I want to study decision-focused evaluation and uncertainty estimation more deeply, so I can define the selection objective in advance and test whether additional information improves the decision.
+My clearest lesson came from separating two claims I had initially connected too closely: predicting a hitter's performance and choosing players for limited review. I found better forecast accuracy without an improvement from my separate screening rule. I now want to learn how to specify a selection objective and evaluate the resulting choices against an existing process, rather than use prediction error alone to justify a change.
 
 ## My next validation step
 
